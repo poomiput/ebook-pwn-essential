@@ -1,0 +1,10 @@
+# pwn artifacts
+*.o
+core
+core.*
+__pycache__/
+*.pyc
+flag*.txt
+libc.so.6
+*.i64
+*.idb
