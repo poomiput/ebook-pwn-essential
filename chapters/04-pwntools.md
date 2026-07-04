@@ -169,4 +169,4 @@ pwn disasm '4831c0'       # แปลง hex → assembly
 - `p64/u64` ต้องคล่องเป็นอัตโนมัติ
 - `ELF` และ `libc` object ช่วยหา address ให้หมด
 
-บทต่อไป: เครื่องมือ GDB / Ghidra / checksec →
+บทต่อไป: เครื่องมือ GDB / Ghidra / [checksec](05-tools.md#1-checksec--ด่านแรกเสมอ) →

@@ -127,7 +127,7 @@ payload = flat(
 
 ## checklist ทำ ret2win
 
-1. ☐ checksec — ยืนยันว่า No canary (ถ้ามี canary ต้อง leak ก่อน)
+1. ☐ [checksec](05-tools.md#1-checksec--ด่านแรกเสมอ) — ยืนยันว่า No canary (ถ้ามี canary ต้อง leak ก่อน)
 2. ☐ หา win ด้วย Ghidra/objdump — จด address และดูว่าต้อง arg ไหม
 3. ☐ หา offset ด้วย cyclic
 4. ☐ ถ้าต้อง arg → หา `pop rdi; ret` ด้วย ROPgadget/pwntools

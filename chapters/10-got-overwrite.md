@@ -34,7 +34,7 @@ puts@PLT  →  อ่าน address จาก  puts@GOT  →  กระโดด
 
 ## เงื่อนไข: RELRO ต้องไม่ใช่ Full
 
-เช็คด้วย checksec ก่อน:
+เช็คด้วย [checksec](05-tools.md#1-checksec--ด่านแรกเสมอ) ก่อน:
 
 ```
 Partial RELRO  → GOT เขียนได้ ✓ ทำได้

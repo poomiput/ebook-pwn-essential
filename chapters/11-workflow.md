@@ -17,7 +17,7 @@
 
 ---
 
-## ขั้นที่ 1: checksec — สำรวจสนาม
+## ขั้นที่ 1: [checksec](05-tools.md#1-checksec--ด่านแรกเสมอ) — สำรวจสนาม
 
 ```bash
 pwn checksec ./vuln
@@ -163,7 +163,7 @@ python3 exploit.py REMOTE     # ยิง server จริง
 
 ## สรุปบทนี้
 
-- ทำ 5 ขั้นทุกโจทย์: checksec → decompile → offset → เลือกเทคนิค → เขียน
+- ทำ 5 ขั้นทุกโจทย์: [checksec](05-tools.md#1-checksec--ด่านแรกเสมอ) → decompile → offset → เลือกเทคนิค → เขียน
 - ให้ **mitigation เป็นตัวชี้ทาง** ว่าต้องใช้เทคนิคไหน
 - มี template กลางที่ปรับได้ทุกโจทย์
 - มี checklist debug เวลาติด
