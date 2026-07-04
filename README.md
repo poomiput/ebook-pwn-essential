@@ -18,7 +18,7 @@
 | [02](chapters/02-stack-and-calling-convention.md) | Stack & Calling Convention | รู้ว่า RBP/RSP/return address อยู่ตรงไหน |
 | [03](chapters/03-buffer-overflow.md) | Buffer Overflow → ควบคุม RIP | ช่องโหว่พื้นฐานที่สุด |
 | [04](chapters/04-pwntools.md) | pwntools ให้คล่อง | เครื่องมือคู่ใจ |
-| [05](chapters/05-tools.md) | GDB / Ghidra / checksec | เครื่องมือที่ต้องใช้เป็น |
+| [05](chapters/05-tools.md) | GDB / Ghidra / [checksec](chapters/05-tools.md#1-checksec--ด่านแรกเสมอ) | เครื่องมือที่ต้องใช้เป็น |
 | [06](chapters/06-ret2win.md) | ret2win | เทคนิคแรกที่ต้องทำได้ |
 | [07](chapters/07-ret2libc.md) | ret2libc | leak libc → system("/bin/sh") |
 | [08](chapters/08-rop.md) | ROP Chain | ต่อ gadget เอง |
